@@ -176,4 +176,174 @@
 
         @media (min-width: 650px) {
             .grid {
-                grid-template-columns: repeat
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .card {
+            background: var(--white);
+            padding: 24px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-content h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .card-content p {
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        .card a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+        .features-list {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 30px;
+            border: 1px solid var(--border);
+            margin-bottom: 35px;
+        }
+
+        .features-list h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .features-list ul {
+            list-style: square;
+            margin-left: 20px;
+            color: var(--text-muted);
+        }
+
+        .features-list li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: var(--white);
+            border-top: 1px solid var(--border);
+            padding: 30px 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer-banner">
+        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </div>
+
+    <header>
+        <a href="index.html" class="site-title">Heartland Behind The Lens</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="iowa-wedding-content-creator.html">Iowa Services</a></li>
+                <li><a href="what-does-a-wedding-content-creator-do.html">What We Do</a></li>
+                <li><a href="wedding-content-creator-vs-videographer.html">Creator vs Videographer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Candid Moments, Delivered Next Morning</h1>
+            <p>Heartland Behind The Lens captures hundreds of raw, high-definition smartphone clips and edited short-form videos so you can relive your wedding day immediately.</p>
+            <div class="cta-group">
+                <a href="iowa-wedding-content-creator.html" class="cta-btn">View Packages</a>
+                <a href="what-does-a-wedding-content-creator-do.html" class="cta-btn-outline">How It Works</a>
+            </div>
+        </section>
+
+        <section class="bio-section">
+            <h2>Welcome to Heartland Behind The Lens</h2>
+            <p>Founded by Iowa City native Clara Miller, Heartland Behind The Lens was built to bridge the gap between traditional wedding photography and real-time digital sharing. While your main media team spends weeks polishing long-form films and galleries, we ensure you have hundreds of authentic, behind-the-scenes clips in your hands within 24 hours.</p>
+        </section>
+
+        <h2 class="section-heading">Explore Our Guides &amp; Services</h2>
+
+        <div class="grid">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Iowa Wedding Content Creator</h3>
+                    <p>Learn about our regional coverage across Iowa City, Cedar Rapids, Des Moines, and the Quad Cities, plus package details.</p>
+                </div>
+                <a href="iowa-wedding-content-creator.html">Read Iowa Guide &rarr;</a>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>What Does a Content Creator Do?</h3>
+                    <p>Discover our step-by-step role on wedding day, from morning prep to late-night dance floor celebrations.</p>
+                </div>
+                <a href="what-does-a-wedding-content-creator-do.html">Explore The Role &rarr;</a>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Creator vs. Videographer</h3>
+                    <p>Compare equipment, delivery turnaround, pricing, and styles to decide what best fits your wedding vision.</p>
+                </div>
+                <a href="wedding-content-creator-vs-videographer.html">Compare Options &rarr;</a>
+            </div>
+        </div>
+
+        <section class="features-list">
+            <h2>Why Add a Content Creator to Your Iowa Wedding?</h2>
+            <ul>
+                <li><strong>Instant Memories:</strong> Receive your entire drive of videos and photos in under 24 hours.</li>
+                <li><strong>Unfiltered Authenticity:</strong> Relive guest laughter, behind-the-scenes hugs, and real party energy.</li>
+                <li><strong>Social-Ready Clips:</strong> Professionally edited Instagram Reels and TikToks using trending audio.</li>
+                <li><strong>Unplugged Guest Experience:</strong> Let your friends and family put their phones away while we record every moment.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="iowa-wedding-content-creator.html">Iowa Services</a> |
+            <a href="what-does-a-wedding-content-creator-do.html">What We Do</a> |
+            <a href="wedding-content-creator-vs-videographer.html">Creator vs Videographer</a>
+        </div>
+        <div class="disclaimer-banner">
+            This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+        </div>
+    </footer>
+
+</body>
+</html>
