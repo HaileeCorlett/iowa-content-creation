@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haileecorlett.github.io/iowa-content-creation/sitemap.xml
